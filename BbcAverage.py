@@ -1,9 +1,10 @@
-ext = input(" podaj dowolny tekst Redaktorze: ")
-Words = len(Text.split())
-LengthOfChar = len(Text)
-Average = (LengthOfChar - Words)/ Words 
 
-print('liczba znakow :  ', LengthOfChar)
-print('liczba znakow :  ', Words)
-print('srednia dlugosc slow wynosi :  ', Average )
 
+text = input(" podaj dowolny tekst Redaktorze: ")
+words = len(text.split())
+length_of_char = len(text)
+average = (length_of_char - words)/ words
+
+print('liczba znakow :  ', length_of_char)
+print('liczba znakow :  ', words)
+print('srednia dlugosc slow wynosi :  ', average )
