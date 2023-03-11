@@ -1,0 +1,11 @@
+variable1 = input(" podaj liczbe numer 1 ")
+first_number = int(variable1)
+variable2 = input(" podaj liczbe numer 2 ")
+second_number = int(variable2)
+
+
+
+
+sume = first_number + second_number
+
+print(" suma wynosi ", sume
